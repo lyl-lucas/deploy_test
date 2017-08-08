@@ -24,6 +24,7 @@ set :repo_url, "git@git.coding.net:liyanlu/deploy_test.git"
 # append :linked_files, "config/database.yml", "config/secrets.yml"
 
 # Default value for linked_dirs is []
+set :linked_dirs, %w(tmp/pids tmp/sockets log)
 # append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system"
 
 # Default value for default_env is {}
