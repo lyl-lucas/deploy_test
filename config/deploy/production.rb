@@ -9,7 +9,7 @@
 server "39.108.81.112", user: "alu", roles: %w{app db}
 set :rails_env, :production
 set :branch, :master
-set :puma_workers, 2
+set :puma_workers, 1
 # role-based syntax
 # ==================
 
